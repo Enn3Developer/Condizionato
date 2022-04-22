@@ -19,15 +19,26 @@
             }
             .header {
                 white-space: nowrap;
-                padding-bottom: 5px;
+                padding-bottom: 3px;
             }
             .header * {
-                display: inline;
-                padding: 5px;
+                display: inline-flex;
+                margin-right: 2px;
+                margin-left: 2px;
+            }
+            .header_img {
+                width: 30px;
+                height: 30px;
+            }
+            #query {
+                width: 73%;
+                position: relative;
+                bottom: 8px;
+                font-size: 20px;
             }
             .vl {
                 border-left: 2px solid gray;
-                height: 500px;
+                height: 30px;
             }
             .vh {
                 border-top: 2px solid gray;
@@ -37,13 +48,13 @@
     </head>
     <body>
         <div class="header">
-            <img src="images/logo.jpg" alt="logo"/>
+            <img class="header_img" src="images/logo.svg" alt="logo"/>
             <div class="vl"></div>
             <input id="query" placeholder="Cerca...">
             <div class="vl"></div>
-            <img src="images/profile.jpg" alt="profilo"/>
+            <img class="header_img" src="images/profile.svg" alt="profilo"/>
             <div class="vl"></div>
-            <img src="images/car.jpg" alt="carrello"/>
+            <img class="header_img" src="images/cart.svg" alt="carrello"/>
         </div>
         <div class="vh"></div>
     </body>
