@@ -1,9 +1,9 @@
-[[]]
+[[units]]
 name = "N AC"
 desc = "Compralo"
 price = 100.0
 
-[[reviews]]
+[[units.reviews]]
 user = "N"
 rating = 5
 text = "SI"

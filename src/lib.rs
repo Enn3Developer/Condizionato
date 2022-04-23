@@ -11,20 +11,22 @@ pub struct Review {
 pub struct ACUnit {
     name: String,
     desc: String,
+    image: String,
     price: f64,
     reviews: Vec<Review>,
 }
 
-#[derive(Clone)]
+#[derive(Serialize, Deserialize, Clone)]
 pub struct AppState {
     units: Vec<ACUnit>,
 }
 
 impl ACUnit {
-    pub fn new(name: String, desc: String, price: f64) -> Self {
+    pub fn new(name: String, desc: String, image: String, price: f64) -> Self {
         Self {
             name,
             desc,
+            image,
             price,
             reviews: vec![],
         }

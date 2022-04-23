@@ -12,7 +12,7 @@ async fn index() -> impl Responder {
 }
 
 #[get("/images/{image}.jpg")]
-async fn get_image_jpg(image: Path<String>) -> impl Responder {
+async fn image_jpg(image: Path<String>) -> impl Responder {
     let bytes = Bytes::from(
         fs::read_to_string(format!("website/images/{}.jpg", image.into_inner())).unwrap(),
     );
@@ -22,7 +22,7 @@ async fn get_image_jpg(image: Path<String>) -> impl Responder {
 }
 
 #[get("/images/{image}.svg")]
-async fn get_image_svg(image: Path<String>) -> impl Responder {
+async fn image_svg(image: Path<String>) -> impl Responder {
     let bytes = Bytes::from(
         fs::read_to_string(format!("website/images/{}.svg", image.into_inner())).unwrap(),
     );
@@ -31,7 +31,12 @@ async fn get_image_svg(image: Path<String>) -> impl Responder {
         .body(bytes)
 }
 
-#[get("/query/name/{query}")]
+#[get("/units")]
+async fn units(state: Data<AppState>) -> impl Responder {
+    serde_json::to_string(state.units())
+}
+
+#[get("/units/query/name/{query}")]
 async fn query_by_name(name: Path<String>, state: Data<AppState>) -> impl Responder {
     let mut units_found = vec![];
     let name = name.into_inner();
@@ -47,13 +52,14 @@ async fn query_by_name(name: Path<String>, state: Data<AppState>) -> impl Respon
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
-    let units = AppState::new(toml::from_str("website/data/units.toml")?);
+    let state: AppState = toml::from_str(&fs::read_to_string("website/data/units.toml")?)?;
     HttpServer::new(move || {
         App::new()
-            .app_data(Data::new(units.clone()))
+            .app_data(Data::new(state.clone()))
             .service(index)
-            .service(get_image_jpg)
-            .service(get_image_svg)
+            .service(image_jpg)
+            .service(image_svg)
+            .service(units)
             .service(query_by_name)
     })
     .bind(("127.0.0.1", 8080))?
