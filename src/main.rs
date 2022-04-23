@@ -1,6 +1,8 @@
 use actix_web::http::StatusCode;
 use actix_web::web::{Bytes, Data, Path};
-use actix_web::{get, App, HttpResponse, HttpServer, Responder};
+use actix_web::{get, App, HttpRequest, HttpResponse, HttpServer, Responder};
+use qstring::QString;
+use std::collections::HashSet;
 use std::fs;
 use Condizionato::AppState;
 
@@ -32,22 +34,36 @@ async fn image_svg(image: Path<String>) -> impl Responder {
 }
 
 #[get("/units")]
-async fn units(state: Data<AppState>) -> impl Responder {
-    serde_json::to_string(state.units())
-}
+async fn units(req: HttpRequest, state: Data<AppState>) -> impl Responder {
+    let query = QString::from(req.query_string());
+    let mut units = state.units().clone();
+    let mut page = String::from(include_str!("../website/units.html"));
+    let mut replacement = String::new();
 
-#[get("/units/query/name/{query}")]
-async fn query_by_name(name: Path<String>, state: Data<AppState>) -> impl Responder {
-    let mut units_found = vec![];
-    let name = name.into_inner();
-
-    for unit in state.units() {
-        if unit.name().contains(&name) {
-            units_found.push(unit);
+    if !query.is_empty() {
+        let mut indexes = HashSet::new();
+        let mut offset = 0;
+        if let Some(name) = query.get("name") {
+            page = page.replace("${QUERY_VALUE}", name);
+            for (i, unit) in units.iter().enumerate() {
+                if !unit.name().contains(name) {
+                    indexes.insert(i);
+                }
+            }
+        }
+        for i in indexes {
+            units.remove(i - offset);
+            offset += 1;
         }
     }
 
-    serde_json::to_string(&units_found)
+    for unit in units {
+        replacement += &unit.into_card();
+    }
+
+    HttpResponse::build(StatusCode::OK)
+        .content_type("text/html")
+        .body(page.replace("${UNITS_CARDS}", &replacement))
 }
 
 #[actix_web::main]
@@ -60,7 +76,6 @@ async fn main() -> std::io::Result<()> {
             .service(image_jpg)
             .service(image_svg)
             .service(units)
-            .service(query_by_name)
     })
     .bind(("127.0.0.1", 8080))?
     .run()

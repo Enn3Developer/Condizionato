@@ -1,6 +1,7 @@
 [[units]]
 name = "N AC"
 desc = "Compralo"
+image = "website/images/n_ac.jpg"
 price = 100.0
 
 [[units.reviews]]

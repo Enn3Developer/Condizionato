@@ -16,6 +16,7 @@
             }
         </script>
         <style>
+            /*  HEADER  */
             .header {
                 white-space: nowrap;
                 margin-bottom: 3px;
@@ -43,6 +44,34 @@
                 border-top: 2px solid gray;
                 height: 30px;
             }
+
+            /*  CARDS  */
+            .cards_container {
+                white-space: nowrap;
+                margin-bottom: 3px;
+            }
+            .cards_container *:not(.card_img, .container) {
+                display: inline-flex;
+                margin-right: 2px;
+                margin-left: 2px;
+            }
+            .card {
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+                transition: 0.3s;
+                border-radius: 5px;
+            }
+            .card:hover {
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+                border-radius: 15px;
+            }
+            .card_img {
+                border-radius: 5px 0 0 5px;
+                width: 125px;
+                height: 125px;
+            }
+            .container {
+                padding: 2px 16px;
+            }
         </style>
     </head>
     <body>
@@ -50,12 +79,23 @@
             <img class="header_img" src="images/logo.svg" alt="logo"/>
             <div class="vl"></div>
             <label for="query" style="margin: -2px !important;"></label>
-            <input id="query" placeholder="Cerca...">
+            <input id="query" placeholder="Cerca..." value="${QUERY_VALUE}">
             <div class="vl"></div>
             <img class="header_img" src="images/profile.svg" alt="profilo"/>
             <div class="vl"></div>
             <img class="header_img" src="images/cart.svg" alt="carrello"/>
         </div>
         <div class="vh"></div>
+
+        <div class="cards_container">
+            <div class="card">
+                <img src="images/n_ac.jpg" alt="N AC" class="card_img">
+                <div class="container">
+                    <p>N AC</p>
+                    <br>
+                    <p>€100.0</p>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

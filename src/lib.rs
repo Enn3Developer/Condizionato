@@ -61,6 +61,10 @@ impl ACUnit {
     pub fn reviews(&self) -> &Vec<Review> {
         &self.reviews
     }
+
+    pub fn into_card(&self) -> String {
+        String::new()
+    }
 }
 
 impl AppState {
