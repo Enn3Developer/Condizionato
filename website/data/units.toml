@@ -1,8 +1,1572 @@
 [[units]]
 name = "N AC"
 desc = "Compralo"
+short_desc = "Miglior condizionatore di sempre"
 image = "n_ac.jpg"
-price = 100.0
+price = 199.99
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units]]
+name = "Climatizzatore Condizionatore Hisense Easy smart 9000 Btu A++ R32 CA25YR1AG"
+desc = "Il risparmio energetico è garantito dall'inverter 3D in dotazione e dal rivoluzionario scambiatore di calore a 3 sezioni che riduce il consumo di energia annua del 30% rispetto ad un climatizzatore tradizionale. Di seguito sono riportati le caratteristiche principali: Nuovo gas ecologico R-32Display LED, Riscaldamento a basse temperature, Funzione SLEEP: Il sonno è di vitale importanza per il nostro organismo e riposare in modo confortevole apporta bene ci per la nostra salute. I climatizzatori Hisense si adattano al sonno di tutti.Timer 24h: Nei climatizzatori Hisense questa funzione permette di selezionare l’ora di accensione e di spegnimento del climatizzatore nell’arco di 24h. Funzione i-FEEL: Il sensore all’ interno del telecomando è in grado di rilevare la temperatura circostante e di trasmettere questa informazione all’ unità interna. L’unità interna funziona in base alla temperatura rilevata. Il controllo intelligente della temperatura garantisce un ambiente più confortevole e un controllo delle temperature più preciso, risparmiando energia. Super Cooling: Selezionando la funzione Super dal telecomando, il climatizzatore riduce rapidamente la temperatura in ambiente aumentando la capacità di raffreddamento del 25%. Funzione SMART: Se si preme il tasto Smart sul telecomando, il climatizzatore funzionerà nella modalità più confortevole in base alla temperatura dell’ambiente. Speciale riavvio a 8°C: La speciale modalità di riscaldamento a 8°C è molto utile soprattutto per le abitazioni situate in aree con temperature più rigide (e nelle seconde case). Durante la vostra assenza, infatti, l’unità si avvierà in modalità riscaldamento appena rilevata una temperatura inferiore agli 8°C permettendo alle vostre stanze di non gelare e riducendo il livello di umidità nell’aria."
+short_desc = "I climatizzatori Easy Smart del Hisense con unita interna CA25YR1AG e unita esterna CA25YR1AW sono un concentrato di Tecnologia che aiutano a creare il clima ideale nell'ambiente in cui sono installati"
+image = "CA25YR1AG.jpg"
+price = 350.0
+
+[[units.reviews]]
+user = "Cliente Amazon"
+rating = 1
+text = "Clima rapporto qualità prezzo ottimo. Silenzioso e molto efficace sia in riscaldamento che in raffreddamento. Spedizione perfetta arrivato prima della data d consegna. Purtroppo m ritrovo a modificare la mia recensione e do una stelle non per l articolo ma per la. Poca serietà dell azienda in quanto mi sta negando l invio della fattura nonostante l avessi richiesta ripetute volte, mi rivolgerò a chi di competenza."
+
+[[units.reviews]]
+user = "Beerbantello"
+rating = 5
+text = "Un ottimo prodotto. Aquistato 2 volte...installato e provato il primo in soggiorno..essendo un buon prodotto l'anno successivo ho acquistato il secondo per sostituire quello obsoleto nella camera da letto.."
+
+[[units.reviews]]
+user = "Mario Rossi"
+rating = 5
+text = "Già conoscevo il prodotto,comunque confermo ottimo il rapporto qualità prezzo.Apparecchio efficiente,rinfresca bene e abbastanza silenzioso"
+
+[[units.reviews]]
+user = "Roberto naso"
+rating = 4
+text = "Non l’ho ancora acceso, mi riservo sulla rumorosità appena lo userò, per quanto riguarda il trasporto invece lamento il fatto che esteriormente era perfetto, ma all’interno ho riscontrato ammaccature varie sicuramente da attribuire al corriere visto che le cose le tirano senza attenzionarle come si deve. Fortunatamente non inficiano il funzionamento."
+
+[[units.reviews]]
+user = "Antonella"
+rating = 5
+text = "condizionatore eccellente con ottimo rapporto qualità prezzo - raffredda velocemente e silenzioso, ha tutte le funzioni desiderate ance regolazione delle alette sia in verticale che orizzontale, eccetto la wifi ma si può aggiungere esternamente. facile da montare piccolo e bello. molto soddisfatta anche del venditore gentilissimo e disponibile -spedizione accurata"
+
+[[units.reviews]]
+user = "Cami"
+rating = 4
+text = "Montato da poco. Sono soddisfatta del prodotto, in relazione al prezzo. Ne avevo un altro modello HI SENSE già in casa, ma questo è molto più silenzioso."
+
+[[units.reviews]]
+user = "onofrio"
+rating = 5
+text = "Ottimo condizionatore, efficiente, silenzioso e basso consumo."
+
+[[units.reviews]]
+user = "alessandro"
+rating = 5
+text = "Ottimo prodotto. Arrivato in anticipo. Elegante e ben fatto l’unico nei, secondo me, è che ho dovuto comprare le staffe per il montaggio dell’unit esterna. Per il resto sono soddisfatto."
+
+[[units.reviews]]
+user = "Francesca vocatore"
+rating = 5
+text = "Funzionante e molto veloce nel riscaldare o raffreddare. Mi sono presa un po di tempo per recensirlo. Ottimo condizionatore"
+
+[[units.reviews]]
+user = "Stefano La Manna"
+rating = 5
+text = "Ottimo prodotto a un prezzo accessibile. Silenziosissimo e molto bello fa vedere. Installato in un vecchio monolocale in campagna umido e freddissimo, ha portato immediatamente la temperatura interna a 22°. Attendo di testarlo anche in estate con i caldi torridi."
+
+[[units.reviews]]
+user = "Mattia"
+rating = 5
+text = "Ottima marca, scalda e raffredda velocemente molto silenzioso nonostante la modalità turbo semplice e leggero da installare, l'unica pecca non ha il controllo con il WiFi."
+
+[[units]]
+name = "Climatizzatore Condizionatore Hisense Easy smart 12000 Btu A++ R32 Ca35yr03"
+desc = "il risparmio energetico è garantito dall'inverter 3D in dotazione e dal rivoluzionario scambiatore di calore a 3 sezioni che riduce il consumo di energia annua del 30% rispetto ad un climatizzatore tradizionale.Di seguito sono riportati le caratteristiche principali del Hisense Easy Smart:Nuovo gas ecologico R-32Display LEDRiscaldamento a basse temperatureFunzione SLEEP:Il sonno è di vitale importanza per il nostro organismo e riposare in modo confortevole apporta bene ci per la nostra salute. I climatizzatori Hisense si adattano al sonno di tutti.Timer 24h: Nei climatizzatori Hisense questa funzione permette di selezionare l’ora di accensione e di spegnimento del climatizzatore nell’arco di 24h.Funzione i-FEEL: Il sensore all’ interno del telecomando è in grado di rilevare la temperatura circostante e di trasmettere questa informazione all’ unità interna. L’unità interna funziona in base alla temperatura rilevata. Il controllo intelligente della temperatura garantisce un ambiente più confortevole e un controllo delle temperature più preciso, risparmiando energia.Super Cooling: Selezionando la funzione Super dal telecomando, il climatizzatore riduce rapidamente la temperatura in ambiente aumentando la capacità di raffreddamento del 25%.Funzione SMART: Se si preme il tasto Smart sul telecomando, il climatizzatore funzionerà nella modalità più confortevole in base alla temperatura dell’ambiente.Speciale riavvio a 8°C: La speciale modalità di riscaldamento a 8°C è molto utile soprattutto per le abitazioni situate in aree con temperature più rigide (e nelle seconde case). Durante la vostra assenza, infatti, l’unità si avvierà in modalità riscaldamento appena rilevata una temperatura inferiore agli 8°C permettendo alle vostre stanze di non gelare."
+short_desc = "I climatizzatori Easy Smart del Hisense con unità interna Ca35yr03 e unita esterna sono un concentrato di Tecnologia che aiutano a creare il clima ideale nell'ambiente in cui sono installati"
+image = "Ca35yr03.jpg"
+price = 399.75
+
+[[units.reviews]]
+user = "Giorgio"
+rating = 1
+text = "Dopo aver aspettato 3 settimane e mezzo” è dopo reclami finalmente il Condizzionatore arriva ma semplicemente non è lo stesso che si vede su Condizionato la macchina interna è proprio diversa. Lo sconsiglio è non capisco tutte quelle recensioni positive 🤔"
+
+[[units.reviews]]
+user = "vincenzo"
+rating = 4
+text = "Il clima è arrivato nei tempi previsti...con un buon imballaggio montaggio fatto dal tecnico e devo dire nessuno problema....non metto 5 stelle xchè non mi piace il comportamento del venditore ...sono da una settimana che lo contatto via email x la fatturazione ....ma nulla di nulla....poi il telefono è un optional ... è inutile che perdete il tempo a chiamare allo 081 della loro sede....tanto non vi risponderanno mai ...venditore inesistente"
+
+[[units.reviews]]
+user = "Delia"
+rating = 5
+text = "Condizionatore ottimo..l'assistenza clienti del negozio megamat si distingue per gentilezza e disponibilità come pochi"
+
+[[units.reviews]]
+user = "Didar samad ahmad"
+rating = 5
+text = "Ancoro non usato pero buona100%100"
+
+[[units.reviews]]
+user = "Cliente Kindle"
+rating = 5
+text = "Silenzioso e poco dispendioso in termini di consumo energetico nella funzione di raffreddamento. Più esigente nella funzione di riscaldamento ma straordinariamente efficiente."
+
+[[units.reviews]]
+user = "Alberto Gallo"
+rating = 5
+text = "APPENA INSTALLATO IL PRIMO NE HO ACQUISTATO SUBITO UN SECONDO !!!! NONOSTANTE DIFFIDASSI DEL MARCHIO DEVO AMMETTERE CHE SONO DELLE MACCHINE VERAMENTE DI QUALITA' SILENZIOSE ED EFFICENTI , PER NON PARLARE DEI COMODISSIMI COMANDI SMART DA REMOTO A DIR POCO ESSENZIALI , MOLTO SODDISFATTO DEL MIO ACQUISTO"
+
+[[units.reviews]]
+user = "Fabrizio.M."
+rating = 4
+text = "Buon prodotto anche la macchina esterna molto silenziosa e compatta rispetto ad altri prodotti. Anche a livello di raffreddamento molto valido"
+
+[[units.reviews]]
+user = "Andrea"
+rating = 5
+text = "Climatizzatore 12000 btu hisense ottimo in tutto silenzioso ottimo acquisto!!!!"
+
+[[units.reviews]]
+user = "Cliente Amazon"
+rating = 5
+text = "Rapporto qualità prezzo eccellente. Volevo fare i complimenti anche al rivenditore per la precisione e la cura dell'imballaggio"
+
+[[units.reviews]]
+user = "Millolillo"
+rating = 5
+text = "Ottimo condizionatore perfetto e non rumoroso ormai è un mese che lo uso senza problemi"
+
+[[units.reviews]]
+user = "Giorgio Cuccu"
+rating = 5
+text = "Ottimo rapporto qualità/prezzo"
+
+[[units.reviews]]
+user = "Shery"
+rating = 5
+text = "L’avevo comprato per il mio locale e non mi aspettavo che andasse così bene, dopo l’utilizzo posso dire che sono davvero soddisfatto!"
+
+[[units.reviews]]
+user = "pietro martino"
+rating = 5
+text = "ottimo e silenzioso........."
+
+[[units.reviews]]
+user = "Roberto"
+rating = 5
+text = "Ottimo che dire in Italia questa marca non è conosciuta bisogna farla conoscere ottima"
+
+[[units.reviews]]
+user = "Cliente Amazon"
+rating = 5
+text = "Facile da utilizzare bello esteticamente molto efficiente venditore top veloce disponibile a qualsiasi domanda"
+
+[[units.reviews]]
+user = "Luca"
+rating = 5
+text = "Ottimo prodotto fra i migliori lo consiglio vivamente e ottimo il servizio dell'azienda fornitrice ti seguono e rispondono ad ogni tua esigenza."
+
+[[units.reviews]]
+user = "Federica Ribolla"
+rating = 5
+text = "Ottimo prodotto silenzioso e ad elevate prestazioni. Arrivato nei tempi previsti e perfettamente imballato"
+
+[[units.reviews]]
+user = "Cliente Amazon"
+rating = 5
+text = "Venditore molto professionale, ottimo condizionatore , rispetta fedelmente la descrizione del prodotto"
+
+[[units.reviews]]
+user = "Andrea"
+rating = 5
+text = "Costa poco e funziona bene, non potrei chiedere di meglio."
+
+[[units]]
+name = "N AC"
+desc = "Compralo"
+short_desc = "Miglior condizionatore di sempre"
+image = "n_ac.jpg"
+price = 199.99
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units]]
+name = "N AC"
+desc = "Compralo"
+short_desc = "Miglior condizionatore di sempre"
+image = "n_ac.jpg"
+price = 199.99
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units]]
+name = "N AC"
+desc = "Compralo"
+short_desc = "Miglior condizionatore di sempre"
+image = "n_ac.jpg"
+price = 199.99
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units]]
+name = "N AC"
+desc = "Compralo"
+short_desc = "Miglior condizionatore di sempre"
+image = "n_ac.jpg"
+price = 199.99
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units]]
+name = "N AC"
+desc = "Compralo"
+short_desc = "Miglior condizionatore di sempre"
+image = "n_ac.jpg"
+price = 199.99
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units]]
+name = "N AC"
+desc = "Compralo"
+short_desc = "Miglior condizionatore di sempre"
+image = "n_ac.jpg"
+price = 199.99
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units]]
+name = "N AC"
+desc = "Compralo"
+short_desc = "Miglior condizionatore di sempre"
+image = "n_ac.jpg"
+price = 199.99
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
+
+[[units.reviews]]
+user = "N"
+rating = 5
+text = "SI"
 
 [[units.reviews]]
 user = "N"

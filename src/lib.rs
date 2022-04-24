@@ -11,6 +11,7 @@ pub struct Review {
 pub struct ACUnit {
     name: String,
     desc: String,
+    short_desc: String,
     image: String,
     price: f64,
     reviews: Vec<Review>,
@@ -22,10 +23,11 @@ pub struct AppState {
 }
 
 impl ACUnit {
-    pub fn new(name: String, desc: String, image: String, price: f64) -> Self {
+    pub fn new(name: String, desc: String, short_desc: String, image: String, price: f64) -> Self {
         Self {
             name,
             desc,
+            short_desc,
             image,
             price,
             reviews: vec![],
@@ -42,6 +44,14 @@ impl ACUnit {
 
     pub fn desc(&self) -> &str {
         &self.desc
+    }
+
+    pub fn short_desc(&self) -> &str {
+        &self.short_desc
+    }
+
+    pub fn image(&self) -> &str {
+        &self.image
     }
 
     pub fn price(&self) -> f64 {
@@ -74,6 +84,8 @@ impl ACUnit {
                 <div class=\"container\">
                     <p>{}</p>
                     <br>
+                    <p>{}</p>
+                    <br>
                     <p>€{}</p>
                 </div>
             </div>",
@@ -81,6 +93,7 @@ impl ACUnit {
             self.name,
             self.rating(),
             self.name,
+            self.short_desc,
             self.price,
         )
     }

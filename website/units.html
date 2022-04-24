@@ -63,13 +63,18 @@
                 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
                 transition: 0.3s;
                 border-radius: 5px;
+                max-width: 350px;
             }
             .card:hover {
                 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
                 border-radius: 15px;
             }
             .container {
-                padding: 2px 16px;
+                padding: 1px 4px;
+            }
+            .container * {
+                margin-bottom: 1px;
+                white-space: normal;
             }
 
             /*  CARD IMAGE  */
@@ -95,8 +100,9 @@
     </head>
     <body>
         <div class="header">
-            <img class="header_img" src="images/logo.svg" alt="logo"/>
-            <div class="vl"></div>
+            <a href="/">
+                <img class="header_img" src="images/logo.svg" alt="logo"/>
+            </a>            <div class="vl"></div>
             <label for="query" style="margin: -2px !important;"></label>
             <input id="query" placeholder="Cerca..." value="${QUERY_VALUE}">
             <div class="vl"></div>

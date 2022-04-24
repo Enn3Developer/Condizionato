@@ -56,6 +56,8 @@ async fn units(req: HttpRequest, state: Data<AppState>) -> impl Responder {
             units.remove(i - offset);
             offset += 1;
         }
+    } else {
+        page = page.replace("${QUERY_VALUE}", "");
     }
 
     for unit in units {
