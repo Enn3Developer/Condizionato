@@ -78,7 +78,7 @@ impl ACUnit {
                 <div class=\"card_img_container\">
                     <img src=\"images/{}\" alt=\"{}\" class=\"card_img\">
                     <div class=\"top_right_card_img\">
-                        <p>{}⭐</p>
+                        <p>{:0.2}⭐</p>
                     </div>
                 </div>
                 <div class=\"container\">

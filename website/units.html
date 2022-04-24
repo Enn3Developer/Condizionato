@@ -35,7 +35,8 @@
                 box-shadow: 0 1px 2px 0 rgba(0,0,0,0.6);
             }
             #query {
-                width: 73%;
+                max-width: 1024px;
+                width: calc(100% - 200px);
                 position: relative;
                 bottom: 8px;
                 font-size: 20px;
@@ -51,13 +52,13 @@
 
             /*  CARDS  */
             .cards_container {
-                white-space: nowrap;
+                white-space: pre-line;
                 margin-bottom: 3px;
+                text-align: center;
             }
             .cards_container *:not(.card_img, .container) {
                 display: inline-flex;
-                margin-right: 2px;
-                margin-left: 2px;
+                margin: 10px;
             }
             .card {
                 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
@@ -94,7 +95,7 @@
             .top_right_card_img {
                 position: absolute;
                 top: 1px;
-                right: 2px;
+                right: 1px;
             }
         </style>
     </head>

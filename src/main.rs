@@ -43,7 +43,6 @@ async fn units(req: HttpRequest, state: Data<AppState>) -> impl Responder {
         let mut offset = 0;
         if let Some(name) = query.get("name") {
             page = page.replace("${QUERY_VALUE}", name);
-            println!("{}", page);
             for (i, unit) in units.iter().enumerate() {
                 if !unit.name().contains(name) {
                     indexes.insert(i);
