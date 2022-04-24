@@ -63,7 +63,26 @@ impl ACUnit {
     }
 
     pub fn into_card(&self) -> String {
-        String::new()
+        format!(
+            "<div class=\"card\">
+                <div class=\"card_img_container\">
+                    <img src=\"images/{}\" alt=\"{}\" class=\"card_img\">
+                    <div class=\"top_right_card_img\">
+                        <p>{}⭐</p>
+                    </div>
+                </div>
+                <div class=\"container\">
+                    <p>{}</p>
+                    <br>
+                    <p>€{}</p>
+                </div>
+            </div>",
+            self.image,
+            self.name,
+            self.rating(),
+            self.name,
+            self.price,
+        )
     }
 }
 

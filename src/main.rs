@@ -15,9 +15,8 @@ async fn index() -> impl Responder {
 
 #[get("/images/{image}.jpg")]
 async fn image_jpg(image: Path<String>) -> impl Responder {
-    let bytes = Bytes::from(
-        fs::read_to_string(format!("website/images/{}.jpg", image.into_inner())).unwrap(),
-    );
+    let bytes =
+        Bytes::from(fs::read(format!("website/images/{}.jpg", image.into_inner())).unwrap());
     HttpResponse::build(StatusCode::OK)
         .content_type("image/jpeg")
         .body(bytes)
@@ -25,9 +24,8 @@ async fn image_jpg(image: Path<String>) -> impl Responder {
 
 #[get("/images/{image}.svg")]
 async fn image_svg(image: Path<String>) -> impl Responder {
-    let bytes = Bytes::from(
-        fs::read_to_string(format!("website/images/{}.svg", image.into_inner())).unwrap(),
-    );
+    let bytes =
+        Bytes::from(fs::read(format!("website/images/{}.svg", image.into_inner())).unwrap());
     HttpResponse::build(StatusCode::OK)
         .content_type("image/svg+xml")
         .body(bytes)
@@ -45,11 +43,14 @@ async fn units(req: HttpRequest, state: Data<AppState>) -> impl Responder {
         let mut offset = 0;
         if let Some(name) = query.get("name") {
             page = page.replace("${QUERY_VALUE}", name);
+            println!("{}", page);
             for (i, unit) in units.iter().enumerate() {
                 if !unit.name().contains(name) {
                     indexes.insert(i);
                 }
             }
+        } else {
+            page = page.replace("${QUERY_VALUE}", "");
         }
         for i in indexes {
             units.remove(i - offset);

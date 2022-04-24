@@ -4,12 +4,10 @@
         <meta charset="UTF-8">
         <title>Condizionato</title>
         <script>
-            let old_value = document.getElementById("query").value;
-
-            window.onkeyup = function (ev) {
-                if (ev.key == "Enter") {
+            window.onkeydown = function (ev) {
+                if (ev.key === "Enter") {
                     let value = document.getElementById("query").value;
-                    if (value != old_value) {
+                    if (document.getElementById("query") === document.activeElement) {
                         location.href = `/units?name=${value}`;
                     }
                 }
@@ -28,6 +26,12 @@
             .header_img {
                 width: 30px;
                 height: 30px;
+                transition: 0.3s;
+                border-radius: 10px;
+            }
+            .header_img:hover {
+                background-color: #eeeeee;
+                box-shadow: 0 1px 2px 0 rgba(0,0,0,0.6);
             }
             #query {
                 width: 73%;

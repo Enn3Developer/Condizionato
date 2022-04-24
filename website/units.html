@@ -4,12 +4,10 @@
         <meta charset="UTF-8">
         <title>Condizionato</title>
         <script>
-            let old_value = document.getElementById("query").value;
-
-            window.onkeyup = function (ev) {
-                if (ev.key == "Enter") {
+            window.onkeydown = function (ev) {
+                if (ev.key === "Enter") {
                     let value = document.getElementById("query").value;
-                    if (value != old_value) {
+                    if (document.getElementById("query") === document.activeElement) {
                         location.href = `/units?name=${value}`;
                     }
                 }
@@ -29,6 +27,12 @@
             .header_img {
                 width: 30px;
                 height: 30px;
+                transition: 0.3s;
+                border-radius: 10px;
+            }
+            .header_img:hover {
+                background-color: #eeeeee;
+                box-shadow: 0 1px 2px 0 rgba(0,0,0,0.6);
             }
             #query {
                 width: 73%;
@@ -64,13 +68,28 @@
                 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
                 border-radius: 15px;
             }
+            .container {
+                padding: 2px 16px;
+            }
+
+            /*  CARD IMAGE  */
+            .card_img_container {
+                position: relative;
+                text-align: center;
+            }
             .card_img {
                 border-radius: 5px 0 0 5px;
+                transition: 0.3s;
                 width: 125px;
                 height: 125px;
             }
-            .container {
-                padding: 2px 16px;
+            .card:hover .card_img {
+                border-radius: 15px 0 0 15px;
+            }
+            .top_right_card_img {
+                position: absolute;
+                top: 1px;
+                right: 2px;
             }
         </style>
     </head>
@@ -88,14 +107,7 @@
         <div class="vh"></div>
 
         <div class="cards_container">
-            <div class="card">
-                <img src="images/n_ac.jpg" alt="N AC" class="card_img">
-                <div class="container">
-                    <p>N AC</p>
-                    <br>
-                    <p>€100.0</p>
-                </div>
-            </div>
+            ${UNITS_CARDS}
         </div>
     </body>
 </html>
