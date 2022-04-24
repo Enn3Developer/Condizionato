@@ -45,9 +45,57 @@
                 border-left: 2px solid gray;
                 height: 30px;
             }
-            .vh {
+            .hl {
                 border-top: 2px solid gray;
                 height: 30px;
+            }
+
+            /*  CARDS  */
+            .cards_container {
+                white-space: pre-line;
+                margin-bottom: 3px;
+                text-align: center;
+            }
+            .cards_container *:not(.card_img, .container) {
+                display: inline-flex;
+                margin: 10px;
+            }
+            .card {
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+                transition: 0.3s;
+                border-radius: 5px;
+                max-width: 350px;
+            }
+            .card:hover {
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+                border-radius: 15px;
+            }
+            .container {
+                padding: 1px 4px;
+            }
+            .container * {
+                margin-bottom: 1px;
+                white-space: normal;
+            }
+
+            /*  CARD IMAGE  */
+            .card_img_container {
+                position: relative;
+                text-align: center;
+            }
+            .card_img {
+                border-radius: 5px 0 0 5px;
+                transition: 0.3s;
+                width: 125px;
+                height: 125px;
+            }
+            .card:hover .card_img {
+                border-radius: 15px 0 0 15px;
+            }
+            .top_right_card_img {
+                position: absolute;
+                top: 1px;
+                right: 1px;
             }
         </style>
     </head>
@@ -64,6 +112,11 @@
             <div class="vl"></div>
             <img class="header_img" src="images/cart.svg" alt="carrello"/>
         </div>
-        <div class="vh"></div>
+        <div class="hl"></div>
+
+        <h1>Selezione del giorno:</h1>
+        <div class="cards_container">
+            ${UNITS_CARDS}
+        </div>
     </body>
 </html>

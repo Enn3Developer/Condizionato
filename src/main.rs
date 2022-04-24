@@ -2,15 +2,29 @@ use actix_web::http::StatusCode;
 use actix_web::web::{Bytes, Data, Path};
 use actix_web::{get, App, HttpRequest, HttpResponse, HttpServer, Responder};
 use qstring::QString;
+use rand::seq::SliceRandom;
+use rand::thread_rng;
 use std::collections::HashSet;
 use std::fs;
 use Condizionato::AppState;
 
 #[get("/")]
-async fn index() -> impl Responder {
+async fn index(state: Data<AppState>) -> impl Responder {
+    let mut page = String::from(include_str!("../website/home.html"));
+    let mut ac_units = state.units().clone();
+    let mut cards = String::new();
+
+    ac_units.shuffle(&mut thread_rng());
+
+    for i in 0..3 {
+        cards += &ac_units[i].into_card();
+    }
+
+    page = page.replace("${UNITS_CARDS}", &cards);
+
     HttpResponse::build(StatusCode::OK)
         .content_type("text/html")
-        .body(include_str!("../website/home.html"))
+        .body(page)
 }
 
 #[get("/images/{image}.jpg")]

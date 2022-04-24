@@ -1,9 +1,9 @@
 [[units]]
 name = "N AC"
 desc = "Compralo"
-short_desc = "Miglior condizionatore di sempre"
+short_desc = "Il miglior condizionatore di sempre"
 image = "n_ac.jpg"
-price = 199.99
+price = 9999.99
 
 [[units.reviews]]
 user = "N"
@@ -18,7 +18,7 @@ image = "CA25YR1AG.jpg"
 price = 350.0
 
 [[units.reviews]]
-user = "Cliente Amazon"
+user = "Cliente Condizionato"
 rating = 1
 text = "Clima rapporto qualità prezzo ottimo. Silenzioso e molto efficace sia in riscaldamento che in raffreddamento. Spedizione perfetta arrivato prima della data d consegna. Purtroppo m ritrovo a modificare la mia recensione e do una stelle non per l articolo ma per la. Poca serietà dell azienda in quanto mi sta negando l invio della fattura nonostante l avessi richiesta ripetute volte, mi rivolgerò a chi di competenza."
 
@@ -100,7 +100,7 @@ rating = 5
 text = "Ancoro non usato pero buona100%100"
 
 [[units.reviews]]
-user = "Cliente Kindle"
+user = "Cliente Condizionato"
 rating = 5
 text = "Silenzioso e poco dispendioso in termini di consumo energetico nella funzione di raffreddamento. Più esigente nella funzione di riscaldamento ma straordinariamente efficiente."
 
@@ -120,7 +120,7 @@ rating = 5
 text = "Climatizzatore 12000 btu hisense ottimo in tutto silenzioso ottimo acquisto!!!!"
 
 [[units.reviews]]
-user = "Cliente Amazon"
+user = "Cliente Condizionato"
 rating = 5
 text = "Rapporto qualità prezzo eccellente. Volevo fare i complimenti anche al rivenditore per la precisione e la cura dell'imballaggio"
 
@@ -150,7 +150,7 @@ rating = 5
 text = "Ottimo che dire in Italia questa marca non è conosciuta bisogna farla conoscere ottima"
 
 [[units.reviews]]
-user = "Cliente Amazon"
+user = "Cliente Condizionato"
 rating = 5
 text = "Facile da utilizzare bello esteticamente molto efficiente venditore top veloce disponibile a qualsiasi domanda"
 
@@ -165,7 +165,7 @@ rating = 5
 text = "Ottimo prodotto silenzioso e ad elevate prestazioni. Arrivato nei tempi previsti e perfettamente imballato"
 
 [[units.reviews]]
-user = "Cliente Amazon"
+user = "Cliente Condizionato"
 rating = 5
 text = "Venditore molto professionale, ottimo condizionatore , rispetta fedelmente la descrizione del prodotto"
 
@@ -197,7 +197,7 @@ rating = 5
 text = "Lunghi i tempi di spedizione ma il prodotto è arrivato integro. Silenziosissimo, efficientissimo."
 
 [[units.reviews]]
-user = "Cliente Amazon"
+user = "Cliente Condizionato"
 rating = 1
 text = "E ' ARRIVATO AMMACATO HO DOVUTO SMONTARLO PER RADDIZZARE L'ESTERNO DELLA MACCHINA ,LA VENTOLA ERA INCASTRATA DALLA BOTTA CHE AVEVA PRESO ERA UN ROTTAME' CON UNA GIORNATA DI LAVORO ORA FUNZIONA PER MIRACOLO"
 
@@ -274,7 +274,7 @@ rating = 4
 text = "Buon prodotto."
 
 [[units.reviews]]
-user = "Amazon Kunde"
+user = "Condizionato Kunde"
 rating = 5
 text = "Hat alles gut geklappt (Traduzione in italiano generata automaticamente: Tutto ha funzionato bene)"
 
@@ -296,929 +296,152 @@ rating = 1
 text = "Nous n'avons pas aimé le manque d'honnêteté commerciale du vendeur. EASY... qui se précipite à demander une satisfaction positve des clients quelques minutes après avoir effectuée une première livraison partielle, puis redemande une autre appréciation positive , alors sait d'évidence que le produit livré n'est pas utilisable n'est pas contrôlable par manque de pièces dans son principe de fonctionnement . A Salou désigné expert Absolu sur le site professionnel Linkelin. (Traduzione in italiano generata automaticamente: Non ci è piaciuta la mancanza di onestà commerciale da parte del venditore. FACILE... che si affretta a chiedere una soddisfazione positiva del cliente pochi minuti dopo aver effettuato una prima consegna parziale, poi chiede un altro apprezzamento positivo, quindi sa ovviamente che il prodotto consegnato non è utilizzabile non è controllabile a causa della mancanza di parti nel suo principio di funzionamento. A Salou nominato esperto assoluto sul sito web professionale Linkelin.)"
 
 [[units]]
-name = "N AC"
-desc = "Compralo"
-short_desc = "Miglior condizionatore di sempre"
-image = "n_ac.jpg"
-price = 199.99
+name = "Olimpia Splendid 01491 Climatizzatore Fisso Senza Unità Esterna Unico Smart 10 SF, Potenza 2,3 kW [Classe di efficienza energetica A]"
+desc = "Fino a 2,7 kW di potenza in una sola unità! L'UNICO pensato per la climatizzazione degli ambienti più grandi. Il motore esterno? Eliminato! All'esterno solo due fori, per una totale integrazione architettonica."
+short_desc = "Il climatizzatore senza unità esterna più potente che ci sia"
+image = "01491.jpg"
+price = 926.93
 
 [[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
+user = "Darko Follis"
+rating = 3
+text = "Per raffreddare raffredda, lo uso in un ambiente da 100mq...ci mette un po perchè lo spazio è davvero grande ma funziona. Il rumore è ok è a metà tra un condizionatore tipo pinguino (rumoroso) ed un normale split con unità esterna (molto silenzioso)- Difetti: -Va bene SOLO se installato a terra.....installato in alto è davvero davvero brutto ma davvero tanto; -Il condizionatore non riporta da nessuna parte la temperatura in modo digitale, appare SOLO sul telecomando....tanto per darvi un'idea se di notte vuoi cambiare la temperatura il telecomando NON si illumina, sul condizionatore NON appare la temperatura...unico modo è accendere il cellulare fare luce sul telecomando e poi cambiare la temperatura potendo cosi vedere sul telecomando NON illuminato i gradi selezionati"
 
 [[units.reviews]]
-user = "N"
+user = "Barabara"
 rating = 5
-text = "SI"
+text = "Quando non è possibile mettere l'unità esterna in facciata, perchè in centro storico è la soluzione giusta. Bastano infatti due fori in facciata ed un tubicino (in dotazione) per lo scarico della condensa nel pluviale (come nel mio caso) o in qualche scarico dell'abitazione. Diverso è se si sceglie il modello che fa solo freddo, in quanto questo non richiede il tubicino per lo scarico della condensa, che viene invece scaricata direttamente dai due fori praticati in facciata grazie ad un evaporatore. La macchina è molto potente ed estremamente silenziosa, e fa caldo, freddo, deumidificazione o semplicemete aria. PRODOTTO CONSIGLIATISSIMO"
 
 [[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
+user = "Flaminia"
+rating = 3
+text = "Installato in camera da letto eliminando il termosifone, purtroppo avevo poche scelte. Acquistato ad un \"buon prezzo\" rispetto i listini, spero di poter recuperare qualcosa in detrazione. l'unico si presenta bene e svolge il suo lavoro egregiamente il problema ,per chi come me ha il sonno leggero, è il rumore, all'inizio pensavo fosse difettoso ho posto anche una domanda perché mi dava l'impressione che lavorasse sempre alla massima ventilazione ed invece è proprio il motore interno che lavora. Il tubicino in dotazione dello scarico della condensa a terra è perennemente staccato nella bacinella bisogna sdraiarsi per terra e cercare di incastrarlo alla cieca, non ho ancora trovato un recipiente lungo e rettangolare tipo vaso da balcone che si adatti e che non mi faccia vivere con una insalatiera per terra in camera da letto."
 
 [[units.reviews]]
-user = "N"
+user = "Angelo B."
 rating = 5
-text = "SI"
+text = "Un ottimo compromesso per che soffre il caldo e non ha la possibilità di mettere l'unità esterno. La capacità di raffrescare e di riscaldare è ottima per un ambiente di 20 25 metri quadri ne risente di più se mansardato o alto... sono al secondo acquisto il primo lo mise nel soggiorno 5 anni fa e in quel caso essendo una stanza da 30 metri quadri con colmo alto 3 m 70 è un po' sottodimensionato ma comunque riesce a rinfrescare l'ambiente seppur occorre più tempo. Questa secondo l'ho preso per la camera da letto che misura 18 metri quadri ed è perfetto l'ho messo in sostituzione al calorifero che ho eliminato avendo questo anche pompa di calore per l'inverno. in quanto rumore un po' si sente come giusto che sia pertanto se siete sensibili a questo prendete bene in considerazione l'acquisto comunque tutto sopportabile e per me addirittura di compagnia di notte cose che poi avviene solo appena mi corico... Il rapporto qualità prezzo è buono per il discorso WiFi invece occorre spendere tra scheda installatore circa €180/200,troppo ,non fatto..."
 
 [[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
+user = "giovanni vignale"
+rating = 3
+text = "non posso ancora dare una valutazione per il funzionamento in quanto sono ancora dedicato all installazione. purtroppo non della macchina ma per il buco nel muro. ho trovato difficolta ad avere un buco adatto alla macchina infatti 20 cm di diametro sono un bel foro che non si puo fare con una carottarice da fai da te ma serve una ditta specializzata per farlo. ho provveduto al foro demolendo una parte del muro e ora lo sto rifacendo rispettando la posizione dei fori come indicato dalla dima forse in settimana arrivero al montaggio e spero che funzioni tutto bene. pero ora mi è venuto un dubbio in inverno a macchina ferma dai due fori potra entrare del freddo sarebbe stato meglio che le griglie avessero una forma di chiusura per quando non viene usata la macchina inoltre perche le griglie non hanno una retina anti insetti ?? saluti g. vignale"
 
 [[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
+user = "Anonimo"
+rating = 2
+text = "Decisamente troppo rumoroso rispetto a quello che si vuol far credere. Non è minimamente paragonabile ad uno split tradizionale con unità esterna. Per l'ufficio il rumore è appena accettabile. Per una camera non adatto!"
 
 [[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
+user = "Robert.stone"
+rating = 4
+text = "Unico condizionatore senza motore a a parte ottimo e silenzioso. Il 12hp con pompa di calore installato in tre ore. Peccato che nella scatola vi sia solo le mascherine per il diametro da 202 mm. Ho dovuto comprare quelle da 162 mm. Pagandole 73€ su Condizionato."
 
 [[units.reviews]]
-user = "N"
+user = "Diego"
 rating = 5
-text = "SI"
+text = "Può rinfrescare o riscaldare una stanza di 15/20 mq in 10 minuti... È un oggetto fantastico! È vero che è un po' rumoroso ma a mio avviso non è assolutamente fastidioso. Io l ho fatto montare nella mia camera da letto e devo dire che riesco a guardare la TV senza alzare il volume più del solito quando il condizionatore è un funzione. Come scritto da altri utenti confermo che le griglie per l esterno sono più grandi di quelle interne e per chi come me abita in un condominio sarà necessario che l installatore venga con un mezzo dotato di cestello sollevatore perché è impossibile lavorarci internamente. Mi sento pienamente tutelato perché è un articolo venduto e spedito da Condizionato,una sicurezza insomma! Ringrazio tutti gli utenti che hanno lasciato un commento"
 
 [[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
+user = "roberto paroni"
+rating = 4
+text = "Di semplice installazione, e collocato in una stanza al primo piano, esposta a ovest e con portico sottostante. Risolto il problema del caldo e del freddo soprattutto nella primavera e autunno."
 
 [[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
+user = "Cliente Condizionato"
+rating = 1
+text = "Purtroppo l'esperienza è più che negativa, l'apparecchio è arrivato apparentemente in una confezione perfettamente integra, è stato installato e all'avvio sembrava tutto bene ma dopo pochi minuti di lavoro ha iniziato a perdere acqua, avviata la procedura di richiesta assistenza dopo alcuni giorni sono venuti a smontarla per scoprire che all'interni c'era u pezzo rotto, praticamente in fase di assemblaggio, quindi la macchina è uscita rotta dalla fabbrica ed è stata messa in vendita così. Ci sono voluti parecchi giorni per averlo indietro ma dopo poco, si è rotto di nuovo, questa volta non funziona il riscaldamento, esce solo aria fredda, il che non è il massimo essendo in dicembre!!! Oltre tutto se la scorsa volta ho potuto avviare la richiesta di assistenza qui da Condizionato, adesso non mi è possibile perchè è ancora aperta la precedente e non me ne fa aprire una nuova...molto delusi!!!!!"
 
 [[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
+user = "Silvia"
+rating = 1
+text = "Premettiamo che chi compra questo prodotto si deve aspettare un pò di rumore. Niente di tremendo però non lo consiglio a chi ha problemi di sonno. Ma il vero problema è che sono strumenti estremamente delicati soggetti facilmente a guasto e quindi se non trasportati nelle dovute maniere si rompono. Condizionato affida il trasporto di questi strumenti a personale non competente a questo tipo di trasporti quindi quasi sicuramente arriverà danneggiato più o meno gravemente."
 
 [[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
+user = "RChinte"
+rating = 4
+text = "A parte un piccolo incidente nell’arrivo con un difetto, il venditore ha provveduto subito alla sostituzione. Fa egregiamente il suo dovere ed uniche pecche è che non è così poco invasivo come dicono le due griglie che vanno all’esterno non sono piccole e comunque vanno praticati due fori da 20 cm al muro. Inoltre ha un tubicino del troppo pieno per la condensa a cui va trovata collocazione . Non fa ricircoli interno dell’aria ma la prende e la espelle da quei fori quindi non avendo unità esterna credo che sia normale debba funzionare in questa maniera."
 
 [[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
+user = "Simonetta Lo Conte"
+rating = 3
+text = "Il prodotto è ingombrante, ho usato solo la funzione fredda è funziona bene ma sto avendo dei problemi con lo scarico della condensa verso l'esterno che si intasa spesso. Appena vi entra un insetto si blocca e purtroppo capita spesso che ci entri abitando in campagna, probabilmente andrebbe progettato meglio affinché gli insetti possano fuoriuscire senza intasarsi. Quando lo scarico è intasato il condizionatore perde molto in potenza."
 
 [[units.reviews]]
-user = "N"
+user = "Andrea Mattiazzo"
 rating = 5
-text = "SI"
+text = "Il prodotto è arrivato ben imballato,corrisponde perfettamente alla descrizione sul sito,non ho ancora potuto provarlo perché non c'era necessità in questi giorni che ha fatto freddo,l'ho acceso solo un'ora con programma automatico, che gestisce tutto lui in casa alla temperatura impostata,condiziona,ventola e deumidifica in base alla condizione della stanza. L'idraulico ci ha messo solo 2 ore per piazzarlo. Ottimo prodotto"
 
 [[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
+user = "Lucio"
+rating = 4
+text = "Prodotto ottimo pagato poco più di 800 euro sotto black friday. Installazione facile, escludendo il buco fatto fare ad un muratore con tazza da 160, anche se le istruzioni ne prevedono da 162. Oltre i dati tecnici e un buon prodotto. Uniche 2 criticità sono il rumore e il caldo emesso. Per una stanza di 20-25 mq fa il suo dovere ma oltre no. Ho la versione caldo-freddo. Essendo in inverno ovviamente ho provato solo questa funzione e per ora sono non troppo soddisfatto. Io sto in un appartamento e lho posizionato in sala. E per fortuna...in camera da letto sembra di essere in un altro appartamento. Poi il rumore...se viene messo in camera non si può dormire, almeno che non viene impostata la modalità notte, che ovviamente rende meno rispetto la modalità normale o alta. Del resto la manutenzione non è eccessivamente complessa...ripeto, buon prodotto ma in mercato per qualche soldo in più c'è di meglio"
 
 [[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
+user = "David Asciutti"
+rating = 1
+text = "Ho comprato questo prodotto per riscaldare e raffrescare un mini appartamento e mi sembrava un ottima soluzione in quanto assente di unità esterna e molto compatto. Dopo nemmeno una settimana le batterie del telecomando si sono scaricate: le ho cambiate con delle nuove, ma nulla, tempo una settimana si sono di nuovo scaricate. Dopo un giorno di funzionamento come pompa di calore, è venuto fuori un allarme per problemi alla sonda di temperatura ambiente, quindi la pompa di calore non riesce a regolare la temperatura interna. Ho segnalato il problema all'assistenza attraverso Condizionato, ma dopo una settimana, nessuno mi ha contattato. Il numero di telefono indicato da Condizionato, non esiste. Ho dovuto chiamare direttamente l'assistenza del costruttore ed attivare un ticket per assistenza in emergenza. Vediamo i loro tempi di risposta."
 
 [[units.reviews]]
-user = "N"
+user = "caffè garibaldi"
 rating = 5
-text = "SI"
+text = "Il condizionatore funziona molto bene, e in più consuma molto poco in energia elettrica. È stato un buon acquisto arrivato tra l altro due giorni dopo aver fatto l ordine. Ha un ottima potenza e nel mio caso rinfresca tutta la zona notte. Lo consiglio"
 
 [[units.reviews]]
-user = "N"
+user = "Emanuela"
 rating = 5
-text = "SI"
+text = "Arrivato in ottimo stato perfettamente funzionante"
 
 [[units.reviews]]
-user = "N"
+user = "carlo"
 rating = 5
-text = "SI"
+text = "Perfetto tutto regolare ! Clima come da descrizione consegna rapidissima. Se facessero accordi con installatori sarebbero imbattibili più di come già lo sono! Condizionato super come sempre"
 
 [[units.reviews]]
-user = "N"
+user = "enrico tosetto"
 rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
+text = "Olimpia Splendid Unico 12 hp è un ottimo prodotto con pompa di calore, classe A, funzione freddo, caldo, deumidificatore, e ventilatore, arrivato completo di tutto per installazione fai da te. Molto silenzioso considerando che ha il compressore interno, livello sonoro poco più di un ventilatore di media grandezza, assolutamente non fastidioso anche con guardando la tv, facile da piazzare, istruzioni molto precose e dettagliate, i fori esterni sono un po grandi e per essere eseguiti necessitano di buona manualità con il trapano, impensabile usare la carotatrice da 20 cm soprattutto se piazzato vicino al soffitto, ma niente di particolarmente difficile ( il mio muro era da 50 cm ) Comandi completi e semplici, fa tutto da solo con pochi click sul telecomando. Garanzia di 4 anni. Molto soddisfatto, raffresca ottimamente, piazzato in alto in una stanza di circa 35 mq e alta 4.5 mt. Non valutato in riscaldamento, ma non è stato acquistato per questo, ma sicuramente utile nella mezza stagione autunnale. Già in previsione di acquistarne un altro. Ottimo acquisto, consiglio sicuramente."
 
 [[units]]
-name = "N AC"
-desc = "Compralo"
-short_desc = "Miglior condizionatore di sempre"
-image = "n_ac.jpg"
-price = 199.99
+name = "CONDIZIONATORE climatizzatore Daikin Emura Bianco 12000 Btu FTXJ35MW R32 COMPLETO MACCHINA INTERNA + ESTERNA"
+desc = "Set completo di unità interna FTXJ35MW e unità esterna RXJ35M. Classe energetica A+++/A++ Efficienza ai massimi livelli, DC INVERTER, refrigerante ecologico R410A. Potenza 12000 Btu/h Resa in raffreddamento 3500 W, resa in riscaldamento 4000 W. Consumo elettrico 880 W, elevato SEER 7,41 - SCOP 4,60. Silenziosissimo: rumorosità unità interna solo 20 dB (esterna 44 dB/A). Portata aria 702 mc/h. Telecomando infrarossi con timer settimanale, funzione Deumidificazione , INTELLIGENT EYE , modalità notturna, Sensore di presenza a due aree di azione e flusso d'aria 3D . Il dispositivo WiFi Plug and play consente di impostare e programmare il climatizzatore ovunque vi troviate mediante sistemi Apple o Android."
+short_desc = "Condizionatore fisso a parete mono-split a Pompa di Calore Daikin gamma EMURA colore BIANCO"
+image = "FTXJ35MW.jpg"
+price = 1149.0
 
 [[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
+user = "Valentino"
+rating = 4
+text = "Buongiorno, sul Daikin perfetto come descrizione del rivenditore. Sulla consegna un disastro, ho dovuto chiamare due volte per sollecitare dopo un mese e mezzo è arrivato. Consiglio se non avete fretta del prodotto che ordinate ."
 
 [[units.reviews]]
-user = "N"
+user = "2220francesco"
 rating = 5
-text = "SI"
+text = "Istallato da un amico professionista , la Macchina risulta essere supersilenziosa, adatta alla linving room , il suo design moderno lo rende un accessorio di arredamento . Che dire .... acquisto eccellente. Integrato con la sua app ad Alexa , ora lo comando praticamente dovunque"
 
 [[units.reviews]]
-user = "N"
+user = "FRANCO"
 rating = 5
-text = "SI"
+text = "L’articolo ottimo arrivato imballato perfetto fermo l’unica cosa è arrivato con 15 giorni di ritardo per colpa del corriere"
 
 [[units.reviews]]
-user = "N"
+user = "antonia"
 rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
+text = "Silenzioso con la funzione econo bassi consumi e possibilità di utilizzarlo in contemporanea con gli altri elettrodomestici. Design accattivante ottimo pezzo d arredamento."
 
 [[units]]
-name = "N AC"
-desc = "Compralo"
-short_desc = "Miglior condizionatore di sempre"
-image = "n_ac.jpg"
-price = 199.99
+name = "Climatizzatore Condizionatore Hisense Easy smart 24000 Btu A++ R32 CA70BT1AG"
+desc = "Il risparmio energetico è garantito dall'inverter 3D in dotazione e dal rivoluzionario scambiatore di calore a 3 sezioni che riduce il consumo di energia annua del 30% rispetto ad un climatizzatore tradizionale.I 4 filtri in 1 che sono rimovibili e lavabili garantiscono una qualità dell'aria eccellente, i filtri sono i seguenti:Il filtro vitamina C rilascia nell’aria vitamina C. La vitamina C penetra nella vostra pelle garantendovi protezione dai raggi ultravioletti, trattenendo l’ossigeno attivo e favorendo la produzione di collagene.Il filtro catechina rimuove gli odori ed elimina lo sporco e le particelle presenti nell’aria e nella stanza.Il filtro HEPA elimina in maniera efficace polline, polvere di macinazione, pneumobacillo, garantendovi aria fresca e salutareFiltro Aromatico questo filtro sul climatizzatore darà un profumo paradisiaco alla vostra stanza, quando aggiungerete il vostro profumo preferito al filtro aromatico.Di seguito sono riportati le caratteristiche principali del Hisense Easy Smart:Nuovo gas ecologico R-32 Display LED Riscaldamento a basse temperature Funzione SLEEP:Il sonno è di vitale importanza per il nostro organismo e riposare in modo confortevole apporta bene ci per la nostra salute. I climatizzatori Hisense si adattano al sonno di tutti.Timer 24h: Nei climatizzatori Hisense questa funzione permette di selezionare l’ora di accensione e di spegnimento del climatizzatore nell’arco di 24h.Funzione i-FEEL: Il sensore all’ interno del telecomando è in grado di rilevare la temperatura circostante e di trasmettere questa informazione all’ unità interna. L’unità interna funziona in base alla temperatura rilevata. Il controllo intelligente della temperatura garantisce un ambiente più confortevole e un controllo delle temperature più preciso."
+short_desc = "I climatizzatori Easy Smart del Hisense con unita interna CA70BT1AG e unita esterna CA70BT1AW sono un concentrato di Tecnologia che aiutano a creare il clima ideale nell'ambiente in cui sono installati"
+image = "CA70BT1AG.jpg"
+price = 809.10
 
 [[units.reviews]]
-user = "N"
+user = "Franco"
 rating = 5
-text = "SI"
+text = "Buono, facile da istallare, silenzioso elegante e conveniente ."
 
 [[units.reviews]]
-user = "N"
+user = "Cliente Condizionato"
 rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units]]
-name = "N AC"
-desc = "Compralo"
-short_desc = "Miglior condizionatore di sempre"
-image = "n_ac.jpg"
-price = 199.99
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
-
-[[units.reviews]]
-user = "N"
-rating = 5
-text = "SI"
+text = "Portentoso, dopo pochi minuti acceso la temperatura cambia, è fantastico. Arrivato in tempi rapidi e consegnato con imballaggio molto efficace a non farlo arrivare danneggiato. Sono davvero soddisfatta dell'acquisto"
