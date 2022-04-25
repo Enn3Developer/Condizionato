@@ -1,13 +1,13 @@
 use serde_derive::{Deserialize, Serialize};
 
-#[derive(Serialize, Deserialize, Clone)]
+#[derive(Serialize, Deserialize)]
 pub struct Review {
     user: String,
     rating: u8,
     text: String,
 }
 
-#[derive(Serialize, Deserialize, Clone)]
+#[derive(Serialize, Deserialize)]
 pub struct ACUnit {
     name: String,
     desc: String,
@@ -17,7 +17,7 @@ pub struct ACUnit {
     reviews: Vec<Review>,
 }
 
-#[derive(Serialize, Deserialize, Clone)]
+#[derive(Serialize, Deserialize)]
 pub struct AppState {
     units: Vec<ACUnit>,
 }
