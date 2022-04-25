@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+    <meta charset="UTF-8">
+    <title>Condizionato</title>
+        <script>
+            let hideDesc = function () {
+                document.getElementById("desc").style.display = "none";
+                document.getElementById("opacity").style.display = "none";
+            }
+
+            let showDesc = function () {
+                document.getElementById("desc").style.display = "flex";
+                document.getElementById("opacity").style.display = "block";
+            }
+
+            let hideReviews = function () {
+                document.getElementById("reviews").style.display = "none";
+                document.getElementById("opacity").style.display = "none";
+            }
+
+            let showReviews = function () {
+                document.getElementById("reviews").style.display = "flex";
+                document.getElementById("opacity").style.display = "block";
+            }
+
+            window.onkeydown = function (ev) {
+                if (ev.key === "Enter") {
+                let value = document.getElementById("query").value;
+                    if (document.getElementById("query") === document.activeElement) {
+                        location.href = `/units?name=${value}`;
+                    }
+                }
+            }
+        </script>
+        <style>
+            /*  HEADER  */
+            .header {
+                white-space: nowrap;
+                margin-bottom: 3px;
+            }
+            .header * {
+                display: inline-flex;
+                margin-right: 2px;
+                margin-left: 2px;
+            }
+            .header_img {
+                width: 30px;
+                height: 30px;
+                transition: 0.3s;
+                border-radius: 10px;
+            }
+            .header_img:hover {
+                background-color: #eeeeee;
+                box-shadow: 0 1px 2px 0 rgba(0,0,0,0.6);
+            }
+            #query {
+                max-width: 1024px;
+                width: calc(100% - 200px);
+                position: relative;
+                bottom: 8px;
+                font-size: 20px;
+            }
+            .vl {
+                border-left: 2px solid gray;
+                height: 30px;
+            }
+            .hl {
+                border-top: 2px solid gray;
+                height: 30px;
+            }
+
+            /*  BODY  */
+            .center {
+                height: 100%;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .row {
+                width: auto;
+            }
+            .column {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+                border-radius: 5px;
+                padding: 5px;
+                max-width: 40%;
+            }
+            .img {
+                max-width: 40%;
+            }
+            .center *:not(.data) {
+                display: inline-flex;
+                min-height: 100%;
+                margin: 5px;
+            }
+            .data {
+                display: grid;
+            }
+            .btn {
+                border-radius: 5px;
+                border: 1px solid black;
+                transition: 0.3s;
+                max-width: 100px;
+                justify-content: center;
+                align-items: center;
+            }
+            .btn:hover {
+                border: 1px solid dimgray;
+                color: dimgray;
+                background-color: white;
+            }
+
+            #opacity {
+                display: none;
+                position: fixed;
+                z-index: 3;
+                top: 0px;
+                left: 0px;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.5);
+            }
+
+            /*  POPOUT  */
+            .popout {
+                z-index: 4;
+                animation: popout 1s ease;
+                -webkit-animation: popout 1s ease;
+            }
+            .popout * {
+                z-index: 4;
+            }
+            @keyframes popout {
+                from{transform:scale(0)}
+                80%{transform:scale(1.2)}
+                to{transform:scale(1)}
+            }
+            @-webkit-keyframes popout {
+                from{-webkit-transform:scale(0)}
+                80%{-webkit-transform:scale(1.2)}
+                to{-webkit-transform:scale(1)}
+            }
+
+            /*  POPOUT WINDOWS  */
+            #desc {
+                background-color: white;
+                display: none;
+                left: 30%;
+                top: 15%;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                flex-wrap: wrap;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+                border-radius: 5px;
+                padding: 5px;
+                position: absolute;
+                width: 40%;
+                margin: 0px auto;
+            }
+            #reviews {
+                background-color: white;
+                display: none;
+                left: 30%;
+                top: 15%;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                flex-wrap: wrap;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+                border-radius: 5px;
+                padding: 5px;
+                position: absolute;
+                width: 40%;
+                margin: 0px auto;
+            }
+            .close_btn {
+                width: 25px;
+                height: 25px;
+                transition: 0.3s;
+                border-radius: 10px;
+                position: absolute;
+                top: 0px;
+                right: 0px;
+            }
+            .close_btn:hover {
+                background-color: #eeeeee;
+                box-shadow: 0 1px 2px 0 rgba(0,0,0,0.6);
+            }
+            .content_popout {
+                margin: 20px;
+            }
+        </style>
+    </head>
+        <body>
+            <div id="opacity"></div>
+            <div class="header">
+                <a href="/">
+                    <img class="header_img" src="images/logo.svg" alt="logo"/>
+                </a>
+                <div class="vl"></div>
+                <label for="query" style="margin: -2px !important;"></label>
+                <input id="query" placeholder="Cerca..." value="">
+                <div class="vl"></div>
+                <img class="header_img" src="images/profile.svg" alt="profilo"/>
+                <div class="vl"></div>
+                <img class="header_img" src="images/cart.svg" alt="carrello"/>
+            </div>
+            <div class="hl"></div>
+
+            <div class="center">
+                <div class="row">
+                    <img src="${IMG}" class="img" alt="${IMG_NAME}"/>
+                    <div class="column">
+                        <div class="data">
+                            <p>${NAME}</p>
+                            <p>${RATING}⭐</p>
+                            <p>€${PRICE}</p>
+                            <button class="btn" onclick="showDesc()">
+                                Descrizione
+                            </button>
+                            <button class="btn" onclick="showReviews()">
+                                Recensioni
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="popout" id="desc" style="">
+                <img src="images/close.svg" class="close_btn" alt="close" onclick="hideDesc()">
+                <div class="content_popout">
+                    <p>${DESC}</p>
+                </div>
+            </div>
+            <div class="popout" id="reviews" style="">
+                <img src="images/close.svg" class="close_btn" alt="close" onclick="hideReviews()">
+                <div class="content_popout">
+                    ${REVIEWS}
+                </div>
+            </div>
+        </body>
+</html>

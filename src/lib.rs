@@ -22,6 +22,15 @@ pub struct AppState {
     units: Vec<ACUnit>,
 }
 
+impl Review {
+    pub fn html(&self) -> String {
+        format!(
+            "<p>{}      {:0.2}⭐</p><br><p>{}</p><br>",
+            self.user, self.rating, self.text
+        )
+    }
+}
+
 impl ACUnit {
     pub fn new(name: String, desc: String, short_desc: String, image: String, price: f64) -> Self {
         Self {
@@ -72,23 +81,26 @@ impl ACUnit {
         &self.reviews
     }
 
-    pub fn into_card(&self) -> String {
+    pub fn card(&self, index: usize) -> String {
         format!(
-            "<div class=\"card\">
-                <div class=\"card_img_container\">
-                    <img src=\"images/{}\" alt=\"{}\" class=\"card_img\">
-                    <div class=\"top_right_card_img\">
-                        <p>{:0.2}⭐</p>
+            "<a href=\"/units/{}\" class=\"card_link\">
+                <div class=\"card\">
+                    <div class=\"card_img_container\">
+                        <img src=\"images/{}\" alt=\"{}\" class=\"card_img\">
+                        <div class=\"top_right_card_img\">
+                            <p>{:0.2}⭐</p>
+                        </div>
+                    </div>
+                    <div class=\"container\">
+                        <p>{}</p>
+                        <br>
+                        <p>{}</p>
+                        <br>
+                        <p>€{:0.2}</p>
                     </div>
                 </div>
-                <div class=\"container\">
-                    <p>{}</p>
-                    <br>
-                    <p>{}</p>
-                    <br>
-                    <p>€{}</p>
-                </div>
-            </div>",
+            </a>",
+            index,
             self.image,
             self.name,
             self.rating(),
