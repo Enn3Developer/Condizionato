@@ -2,7 +2,7 @@ use actix_web::http::StatusCode;
 use actix_web::web::{Bytes, Data, Path};
 use actix_web::{get, App, HttpRequest, HttpResponse, HttpServer, Responder};
 use qstring::QString;
-use rand::seq::SliceRandom;
+use rand::distributions::{Distribution, Uniform};
 use rand::thread_rng;
 use std::collections::HashSet;
 use std::fs;
@@ -12,12 +12,14 @@ use Condizionato::AppState;
 #[get("/")]
 async fn home(state: Data<Arc<AppState>>) -> impl Responder {
     let mut page = String::from(include_str!("../website/home.html"));
-    let mut ac_units = state.units().clone();
+    let ac_units = state.units();
     let mut cards = String::new();
 
-    ac_units.shuffle(&mut thread_rng());
+    let mut rng = thread_rng();
+    let uniform = Uniform::new(0, ac_units.len());
 
-    for i in 0..3 {
+    for _ in 0..=2 {
+        let i = uniform.sample(&mut rng);
         cards += &ac_units[i].into_card();
     }
 
@@ -49,35 +51,35 @@ async fn image_svg(image: Path<String>) -> impl Responder {
 #[get("/units")]
 async fn units(req: HttpRequest, state: Data<Arc<AppState>>) -> impl Responder {
     let query = QString::from(req.query_string());
-    let mut units = state.units().clone();
+    let units = state.units();
+    let mut indexes = HashSet::new();
     let mut page = String::from(include_str!("../website/units.html"));
     let mut replacement = String::new();
 
     if !query.is_empty() {
-        let mut indexes = HashSet::new();
         if let Some(name) = query.get("name") {
             let name = name.replace("%20", " ");
             page = page.replace("${QUERY_VALUE}", &name);
             for i in 0..units.len() {
-                if !units[i].name().contains(&name) {
+                if units[i].name().contains(&name) {
                     indexes.insert(i);
                 }
             }
         } else {
             page = page.replace("${QUERY_VALUE}", "");
         }
-
-        let mut indexes: Vec<&usize> = indexes.iter().collect();
-        indexes.sort();
-        while !indexes.is_empty() {
-            units.remove(*indexes.pop().unwrap());
-        }
     } else {
         page = page.replace("${QUERY_VALUE}", "");
     }
 
-    for unit in units {
-        replacement += &unit.into_card();
+    if !indexes.is_empty() {
+        for i in indexes {
+            replacement += &units[i].into_card();
+        }
+    } else {
+        for unit in units {
+            replacement += &unit.into_card();
+        }
     }
 
     HttpResponse::build(StatusCode::OK)
